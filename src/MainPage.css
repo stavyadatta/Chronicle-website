@@ -1,3 +1,8 @@
+.Main_page_first_segment {
+    max-height: 10%;
+	max-width: 200%; 
+}
+
 .Chronicle_heading {
     position: absolute;
 width: 813px;
@@ -12,23 +17,25 @@ font-size: 64px;
 line-height: 75px;
 text-transform: capitalize;
 
-color: black;
+color: #FDFAFF;
+
 }
 
 .Hackathon_detail {  
-position: absolute;
-width: 813px;
-height: 72px;
-left: 137px;
-top: 274px;
-
-font-family: Raleway;
-font-style: normal;
-font-weight: bold;
-font-size: 64px;
-line-height: 75px;
-
-color: black;
+    position: absolute;
+    width: 813px;
+    height: 72px;
+    left: 137px;
+    top: 274px;
+    
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 75px;
+    
+    color: #FCF9FF;
+    
 }
 
 .Hackathon_topic {
@@ -45,25 +52,28 @@ color: black;
     line-height: 28px;
     letter-spacing: 0.08em;
     font-variant: small-caps;
-    color: black;
+
+    color: #FCF9FF;
+
 }
 
 .Hackathon_date {
     position: absolute;
-    width: 577px;
-    height: 68px;
-    left: 140px;
-    top: 402px;
+width: 577px;
+height: 68px;
+left: 140px;
+top: 402px;
 
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 21px;
-    letter-spacing: 0.08em;
-    text-transform: capitalize;
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+letter-spacing: 0.08em;
+text-transform: capitalize;
 
-    color: black;
+color: #FCF9FF;
+
 
 }
 
@@ -83,6 +93,27 @@ line-height: 22px;
 
 letter-spacing: 0.08em;
 
-color: black;
+color: #FCF9FF;
+
+}
+
+#background_theme {
+    position: absolute;
+left: 5%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: linear-gradient(288.15deg, #45108A 2.28%, #3D065F 29.57%, #10054D 101.35%);
+}
+
+#first_segment_graphic {
+    position: absolute;
+    width: 578.27px;
+    height: 512.61px;
+    left: 806px;
+    top: 167.43px;
+    
+    transform: rotate(-0.74deg);
 
 }
