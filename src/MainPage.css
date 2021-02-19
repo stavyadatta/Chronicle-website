@@ -1,0 +1,88 @@
+.Chronicle_heading {
+    position: absolute;
+width: 813px;
+height: 60px;
+left: 132px;
+top: 211px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 64px;
+line-height: 75px;
+text-transform: capitalize;
+
+color: black;
+}
+
+.Hackathon_detail {  
+position: absolute;
+width: 813px;
+height: 72px;
+left: 137px;
+top: 274px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 64px;
+line-height: 75px;
+
+color: black;
+}
+
+.Hackathon_topic {
+    position: absolute;
+    width: 577px;
+    height: 68px;
+    left: 142px;
+    top: 359px;
+
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.08em;
+    font-variant: small-caps;
+    color: black;
+}
+
+.Hackathon_date {
+    position: absolute;
+    width: 577px;
+    height: 68px;
+    left: 140px;
+    top: 402px;
+
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.08em;
+    text-transform: capitalize;
+
+    color: black;
+
+}
+
+.Hackathon_description {
+    position: absolute;
+left: 9.66%;
+right: 42.31%;
+top: 52.61%;
+bottom: 32.57%;
+
+font-family: Karla;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+/* or 122% */
+
+letter-spacing: 0.08em;
+
+color: black;
+
+}
