@@ -29,6 +29,8 @@ function FirstSegment() {
                 <p className = "Hackathon_description">Chronicle is an annual hackathon hosted by the Google Developers Student Club - University of Melbourne (DSC Unimelb). This year, it’ll be held virtually and open to all university students around the world. 
 
     The theme for this year is Consumer Tech: Make It a Reality.  Consumer Technology is any kind of technology that an individual, company or organization would purchase for completing tasks and meeting their needs. </p>
+                <button className="sign_up"> Sign Up</button>
+                <button className='DSC_unimelb'> <p className='dsc_text'>DSC </p></button>
             </div>
         </div>
     )

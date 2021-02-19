@@ -99,6 +99,37 @@ color: #FCF9FF;
 
 }
 
+.sign_up {
+    position: absolute;
+left: 9.52%;
+right: 81.97%;
+top: 71.23%;
+bottom: 24.78%;
+
+background: #7C1DC9;
+border: 2px solid #7C1DC9;
+box-sizing: border-box;
+border-radius: 100px;
+}
+
+.dsc_text {
+    color: white;
+    padding-bottom: ;
+}
+
+.DSC_unimelb {
+    position: absolute;
+left: 20.34%;
+right: 68.3%;
+top: 71.23%;
+bottom: 24.78%;
+
+border: 2px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 100px;
+background-color: #23024d;
+}
+
 #background_theme {
     position: absolute;
 left: 5%;
