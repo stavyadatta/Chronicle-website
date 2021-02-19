@@ -3,7 +3,15 @@ import Background_theme from './Images/background_theme.svg';
 import First_segment_graphic from './Images/first_segment_graphic.svg'
 import "./MainPage.css";
 
-
+function TopButtons() {
+    return(
+        <div>
+            <h5 id="home_top"> Home </h5>
+            <h5 id="schedule_top"> Schedule </h5>
+            <h5 id="FAQ_top"> FAQ </h5>
+        </div>
+    )
+}
 
 function FirstSegment() {
     return (
@@ -30,6 +38,7 @@ function MainPage(){
     return (
         <div className="home_page">
             <FirstSegment/>
+            <TopButtons/>
         </div>
     );
 }
