@@ -1,7 +1,10 @@
 import React from "react";
-import Background_theme from './Images/background_theme.svg';
+import Background_theme from './Images/background.png';
 import First_segment_graphic from './Images/first_segment_graphic.svg'
 import "./MainPage.css";
+
+// * mobile screen */ @media screen and (max-width: ..px) { /* all code for screen size goes here */ } /* laptop screen */ @media screen and (max-width: ..px) { /* all code for screen size goes here */ } 
+
 
 function TopButtons() {
     return(
@@ -30,7 +33,7 @@ function FirstSegment() {
 
     The theme for this year is Consumer Tech: Make It a Reality.  Consumer Technology is any kind of technology that an individual, company or organization would purchase for completing tasks and meeting their needs. </p>
                 <button className="sign_up"> Sign Up</button>
-                <button className='DSC_unimelb'> <p className='dsc_text'>DSC </p></button>
+                <button className='DSC_unimelb'>DSC Unimelb</button>
             </div>
         </div>
     )
