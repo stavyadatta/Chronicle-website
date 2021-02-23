@@ -1,4 +1,4 @@
-* { max-width: 100vw; }
+* { max-width: 100vw; padding:0px; margin:0px;}
 .home_page {
     max-height: 100vh;
 	max-width: 90vw; 
@@ -138,9 +138,9 @@ color: #FCF9FF;
     color: #23024d;
 }
 .Mainpage_second_segment{
-    position: absolute;
-    top: 100vh;
-    width: 100vw;
+    position: relative;
+    top: -5vh;
+    width: 120vw;
     background-color: #14054F;
 
 }
@@ -221,7 +221,7 @@ border-radius: 30px;
     position: absolute;
     left: 51.04vw;
     right: 3.68vw;
-    top: 30.92%;
+    top: 20.92%;
     bottom: 66.81%;
 
     font-family: Montserrat;
@@ -239,8 +239,8 @@ border-radius: 30px;
     position: relative;
     left: 51.04vw;
     right: 12.78%;
-    top: -12.97vh;
-    bottom: 65.92%;
+    top: -20.97vh;
+    bottom: 25.92%;
 
     font-family: Karla;
     font-style: normal;
@@ -260,8 +260,9 @@ border-radius: 30px;
     position: relative;
     width: 24vw;
     left: 51vw;
-    top: -5vh;
+    top: -10vh;
     color: #FCF9FF;
+    margin-bottom: 5em;;
 }
 .Round_overview_h4 {
     font-family: Karla;
@@ -283,6 +284,7 @@ border-radius: 30px;
     bottom: 0%;
     max-width: 100vw;
     height: 100vh;
+    background-size:100%;
 }
 
 span {

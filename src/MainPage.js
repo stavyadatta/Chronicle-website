@@ -65,22 +65,31 @@ function SecondSegment() {
                 <h1 className="Results">Results</h1>
                 <p className="Result_statement">Hang in there! We’ll need some time 
                 go through your amazing submissions.</p>
-                <Overviews/>
+                <Overviews h3= "Preliminery Round" h4="Wednesday, 24th March"
+                    last_sentence=" Announce Top Teams and Honarary mentions"
+                />
+                <Overviews h3= "Final Round" h4="Saturday, 27th March"
+                    last_sentence="Live Pitch"
+                />
                 
             </div>
         </div>
     )
 }
-function Overviews() {
+
+
+function Overviews(props) {
+    const {h3, h4, last_sentence } = props;
     return (
         <div className= 'Round_overview'>
-            <h3 className='Round_overview_h3'> Preliminery Round</h3>
-            <h4 className= 'Round_overview_h4'> Wednesday, 24th March</h4>
-            Announce Top 5 Teams and Honarary mentions
+            <h3 className='Round_overview_h3'> {h3}</h3>
+            <h4 className= 'Round_overview_h4'> {h4}</h4>
+            {last_sentence}
         </div>
         
     )
 }
+
 
 
 
