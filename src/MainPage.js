@@ -54,21 +54,42 @@ function FirstSegment() {
 function SecondSegment() {
     return (
         <div className="Mainpage_second_segment">
-            <h1 className="Schedule_theme">Schedule</h1>
-            <button id="day_1">Day 1</button>
-            <button id="day_2">Day 2</button>
-            <button id="day_3">Day 3</button>
-            <SecondSegmentPlan/>
+            <div className="Schedule_segment">
+                <h1 className="Schedule_theme">Schedule</h1>
+                <button id="day_1">Day 1</button>
+                <button id="day_2">Day 2</button>
+                <button id="day_3">Day 3</button>
+                <SecondSegmentPlan/>
+            </div>
+            <div className="Overview_segment">
+                <h1 className="Results">Results</h1>
+                <p className="Result_statement">Hang in there! We’ll need some time 
+                go through your amazing submissions.</p>
+                <Overviews/>
+                
+            </div>
         </div>
     )
 }
+function Overviews() {
+    return (
+        <div className= 'Round_overview'>
+            <h3 className='Round_overview_h3'> Preliminery Round</h3>
+            <h4 className= 'Round_overview_h4'> Wednesday, 24th March</h4>
+            Announce Top 5 Teams and Honarary mentions
+        </div>
+        
+    )
+}
+
+
 
 function SecondSegmentPlan() {
     return (
         <div className="Plan_First_Day">
             <h2 className = "first_day_date"> Friday, 19th March (AEDT)</h2>
-            <h4> Opening Ceremony            5:30PM</h4>
-            <h4> Start Hacking               6:30PM</h4>
+            <h4 className="Plan_text"> Opening Ceremony <span>5:30PM </span></h4>
+            <h4 className="Plan_text"> Start Hacking <span> 6:30PM</span></h4>
         </div>
     )
 }
