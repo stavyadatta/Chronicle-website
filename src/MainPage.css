@@ -142,6 +142,15 @@ color: #FCF9FF;
     top: -5vh;
     width: 120vw;
     background-color: #14054F;
+    height: 100vh;
+
+}
+
+.Mainpage_third_segment{
+    position: relative;
+    top: 20vh;
+    width: 120vw;
+    background-color: #14054F;
 
 }
 .Schedule_segment {
@@ -262,7 +271,7 @@ border-radius: 30px;
     left: 51vw;
     top: -10vh;
     color: #FCF9FF;
-    margin-bottom: 5em;;
+    margin-top: 3em;;
 }
 .Round_overview_h4 {
     font-family: Karla;
@@ -275,6 +284,32 @@ border-radius: 30px;
     letter-spacing: 0.08em;
     color: #B595DD;
 }
+span {
+    position: relative;
+    margin-left: 10rem;
+}
+
+.FAQs_title {
+    position: absolute;
+    left: 20.21%;
+    right: 21.53%;
+    top: 48.56%;
+    bottom: 49.15%;
+
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 100px;
+    /* or 208% */
+
+    text-align: center;
+    letter-spacing: 0.08em;
+
+    color: black;
+
+}
+
 
 #background_theme {
     position: relative;
@@ -287,10 +322,6 @@ border-radius: 30px;
     background-size:100%;
 }
 
-span {
-    position: relative;
-    margin-left: 10rem;
-}
 
 #first_segment_graphic {
     position: absolute;

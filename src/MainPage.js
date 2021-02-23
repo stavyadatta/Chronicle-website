@@ -12,6 +12,7 @@ function MainPage(){
             <FirstSegment/>
             <TopButtons/>
             <SecondSegment/>
+            <ThirdSegment/>
         </div>
     );
 }
@@ -71,12 +72,12 @@ function SecondSegment() {
                 <Overviews h3= "Final Round" h4="Saturday, 27th March"
                     last_sentence="Live Pitch"
                 />
+              
                 
             </div>
         </div>
     )
 }
-
 
 function Overviews(props) {
     const {h3, h4, last_sentence } = props;
@@ -89,16 +90,20 @@ function Overviews(props) {
         
     )
 }
-
-
-
-
 function SecondSegmentPlan() {
     return (
         <div className="Plan_First_Day">
             <h2 className = "first_day_date"> Friday, 19th March (AEDT)</h2>
             <h4 className="Plan_text"> Opening Ceremony <span>5:30PM </span></h4>
             <h4 className="Plan_text"> Start Hacking <span> 6:30PM</span></h4>
+        </div>
+    )
+}
+
+function ThirdSegment() {
+    return(
+        <div className="Mainpage_third_segment">
+            <h1 className="FAQs_title">Frequently Asked Questions</h1>
         </div>
     )
 }
