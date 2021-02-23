@@ -63,18 +63,10 @@ function SecondSegment() {
     )
 }
 
-function SecondSegmentBtns() {
-    return (
-        <div >
-            
-        </div>
-    )
-}
-
 function SecondSegmentPlan() {
     return (
         <div className="Plan_First_Day">
-            <h2> Friday, 19th March (AEDT)</h2>
+            <h2 className = "first_day_date"> Friday, 19th March (AEDT)</h2>
             <h4> Opening Ceremony            5:30PM</h4>
             <h4> Start Hacking               6:30PM</h4>
         </div>
