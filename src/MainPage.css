@@ -137,6 +137,40 @@ color: white;
     background: white;
     color: #23024d;
 }
+.Mainpage_second_segment{
+    position: absolute;
+    top: 100vh;
+
+}
+
+.Schedule_theme{
+    position: relative;
+    left: -10.07vw;
+    right: 84.72%;
+    top: 27.22%;
+    bottom: 0.5%;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 100px;
+    /* or 208% */
+
+    text-align: center;
+    letter-spacing: 0.08em;
+}
+
+.Plan_First_Day {
+    position: relative;
+width: 662px;
+height: 272px;
+left: 3vw;
+top: 5vh;
+
+background: #5F27BD;
+border-radius: 30px;
+}
 
 #background_theme {
     position: absolute;
@@ -175,4 +209,41 @@ color: white;
 	top: 11%;
 	right: 16%;
     color: #FDFAFF;
+}
+
+#day_1 {
+    position: relative;
+    left: 10%;
+    right: 80%;
+    top: 20%;
+    bottom: 65.69%;
+
+    background: #5F27BD;
+    border: 2px solid #5F27BD;
+    box-sizing: border-box;
+    border-radius: 100px;
+}
+
+#day_2 {
+    position: relative;
+    left: 22.22%;
+right: 66.88%;
+top: 32.97%;
+bottom: 65.69%;
+
+border: 2px solid #5C9EEC;
+box-sizing: border-box;
+border-radius: 100px;
+}
+
+#day_3 {
+    position: relative;
+    left: 35.35%;
+    right: 53.75%;
+    top: 32.97%;
+    bottom: 65.69%;
+
+    border: 2px solid #B4299A;
+    box-sizing: border-box;
+    border-radius: 100px;
 }
